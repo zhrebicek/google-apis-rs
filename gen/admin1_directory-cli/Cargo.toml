@@ -1,0 +1,42 @@
+# DO NOT EDIT !
+# This file was generated automatically from 'src/generator/templates/Cargo.toml.mako'
+# DO NOT EDIT !
+[package]
+
+name = "google-admin1_directory-cli"
+version = "5.0.3+20230117"
+authors = ["Sebastian Thiel <byronimo@gmail.com>"]
+description = "A complete library to interact with directory (protocol directory_v1)"
+repository = "https://github.com/Byron/google-apis-rs/tree/main/gen/admin1_directory-cli"
+homepage = "https://developers.google.com/admin-sdk/"
+documentation = "http://byron.github.io/google-apis-rs/google_admin1_directory_cli"
+license = "MIT"
+keywords = ["admin", "google", "cli"]
+autobins = false
+edition = "2018"
+
+[[bin]]
+name = "admin1-directory"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "^ 1.0"
+hyper-rustls = "0.24.0"
+mime = "^ 0.3.0"
+serde = { version = "^ 1.0", features = ["derive"] }
+serde_json = "^ 1.0"
+itertools = "^ 0.10"
+google-clis-common = { path = "../../google-clis-common", version = "6.0" }
+strsim = "^0.5"
+clap = "^2.0"
+http = "^0.2"
+hyper = { version = "0.14", features = ["full"] }
+tokio = { version = "^ 1.0", features = ["full"] }
+tower-service = "^0.3.1"
+
+
+
+[dependencies.google-admin1_directory]
+path = "../admin1_directory"
+version = "5.0.3+20230117"
+

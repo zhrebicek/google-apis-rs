@@ -23,7 +23,6 @@ api:
     adexperiencereport:
     - v1
     admin:
-    - directory_v1
     - reports_v1
     admob:
     - v1

@@ -10,7 +10,6 @@ api:
     # recursive type
     - trafficdirector
     # Assertion error during generation
-    - admin
     # exclude APIs which currently don't build correctly. State the reason for the exclusion as well
     # to allow looking at it at a later point.
     # in beta, there is not a single method !
